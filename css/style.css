@@ -44,3 +44,14 @@ body{
 .text-warning{
     color: var(--terracotta);
 }
+
+
+
+
+/* Responsiviteti */
+media (max-width: 768px){
+
+}
+media (max-width: 462px){
+
+}
