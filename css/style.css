@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+/* font-family: 'Playfair', serif;
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+:root{
+    terracotta: #E2725B;
+    brown: #A0522D;
+    cream: #FFF8E1;
+    sand: #C2B280;
+    charcoal: #36454F;
+    font-title: 'Playfair', serif;
+    font-text: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: var(16px);
+    line-height: var(1,);
+    font-family: var(--font-text);
+    background-color: var(--cream);
+}
+.navbar-brand{
+    height: 50px;
+}
+
+.book-button:hover{
+    background-color: var(--terracotta);
+    color: var(--cream);
+    border: 1px solid var(--terracotta);
+
+}
+.navbar{
+    background-color: var(--color-primary-dark);
+
+}
+
+.navbar .nav-link,navbar .nav-link.active{
+    color: var(--cream);
+}
+
+.text-warning{
+    color: var(--terracotta);
+}
