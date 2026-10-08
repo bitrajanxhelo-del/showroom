@@ -294,7 +294,7 @@ body {
   color: var(--dark);
   border: 1px solid var(--light-gray);
   height: 40px;  
-
+}
   /* Footer */
 .site-footer {
   background-color: #090909;
@@ -629,7 +629,18 @@ body {
 textarea.form-control {
   resize: none;
 }
-
+.subscribe-button{
+      width: 315px;
+      height: 72px;
+      border: 0;
+      background-color: #ed3224;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
 @media (max-width: 576px) {
   .contact-form {
     padding: 25px 20px;
@@ -671,6 +682,7 @@ textarea.form-control {
   font-size: 0.85rem;
   font-weight: 600;
   transition: 0.3s;
+  border: none;
 }
 
 .filter-btn:hover,

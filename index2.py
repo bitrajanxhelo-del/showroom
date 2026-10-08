@@ -27,59 +27,62 @@ for i in tuple1:
     print(i)    
 
 
-student = {
-    "emri": "Anxhelo",
-    "mbiemri": "Hoxha",
-    "mosha": 25,
-    "trajnimi": "Python"
-}
-for info in student:
-    print(f"vlera {student[info]} ndodhet ne key {info}")
+# student = {
+#     "emri": "Anxhelo",
+#     "mbiemri": "Hoxha",
+#     "mosha": 25,
+#     "trajnimi": "Python"
+# }
+# for info in student:
+#     print(f"vlera {student[info]} ndodhet ne key {info}")
 
-for i in range(1, 11):
-    print(i)    
-print("break")
-for i in range(1, 11,):
-        if i == 5:
-            break
-        print(i)
+# for i in range(1, 11):
+#     print(i)    
+# print("break")
+# for i in range(1, 11,):
+#         if i == 5:
+#             break
+#         print(i)
 
-print("continue")
-for i in range(1, 11):
-    if i == 5:
-        continue
-    print(i)   
+# print("continue")
+# for i in range(1, 11):
+#     if i == 5:
+#         continue
+#     print(i)   
 
-print("pass")
-for i in range(1, 11):
-    if i == 5:
-        pass
-    print(i)
+# print("pass")
+# for i in range(1, 11):
+#     if i == 5:
+#         pass
+#     print(i)
+
+
+
+#  # funksion 
+# def sum(a,b):
+#     print(a+b)
+# sum(2,3)
+# def sumReturn(a,b):
+#     return a+b
+# print(sumReturn(2,3))
+
+# nr = int(input("Vendos një numër: "))
+# def tekCift(nr):
+#     if nr % 2 == 0:
+#         print(f"{nr} është numër çift.")
+#     else:
+#         print(f"{nr} është numër tek.")
+# tekCift(nr) 
+
+
 
 
 for i in range(1, 51):
-    if i %3 == 0:
-        print("Fizz")  
+    if i %3 == 0 and i %5 != 0:
+        print("FizzBuzz")  
     elif i %5 == 0:
         print("Buzz")
-    elif i %3 == 0 and i %5 == 0:
-        print("FizzBuzz")
+    elif i %3 == 0:
+        print("Fizz")
     else:
         print(i)
-
-
- # funksion 
-def sum(a,b):
-    print(a+b)
-sum(2,3)
-def sumReturn(a,b):
-    return a+b
-print(sumReturn(2,3))
-
-nr = input("Vendos nje numer: ")
-def tekCift(nr):
-    if int(nr) % 2 == 0:
-     print(f"{nr} eshte numer cift.")
-    else:
-     print(f"{nr} eshte numer tek.")
-    tekCift(nr)
